@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        function afiseazaBradut() {
+    const inaltime = 6; // Înălțimea brăduțului
+    let spatii = inaltime - 1; // Spatiile din stânga pentru formarea brăduțului
+
+    // Partea de sus a brăduțului (cu forme triunghiulare)
+    for (let i = 1; i <= inaltime; i++) {
+        let rand = ' '.repeat(spatii) + '*'.repeat(2 * i - 1);
+        console.log(rand);
+        spatii--;
+    }
+
+    // Trunchiul brăduțului
+    let trunchi = ' '.repeat(inaltime - 1) + '|';
+    console.log(trunchi);
+}
+
+// Apelăm funcția pentru a afișa brăduțul
+afiseazaBradut();
+
+    </script>
+</body>
+</html>
