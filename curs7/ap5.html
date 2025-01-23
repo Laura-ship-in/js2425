@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const myArray =[
+            [2,6,3,,9,10,5,3,16,12,4],
+            [2,3,45,7,10,4,6,8,7],
+            [7,3,5,9,1,24,21,0,11]
+        ];
+        console.log( myArray [1] [5]);
+        // myArray.sort((a,b) => a-b);
+        myArray.forEach(function(arr) {
+            arr.sort((a, b) => a-b);
+        });
+        console.log(myArray[1] [5]);
+        console.log(myArray);
+    </script>
+</body>
+</html>
