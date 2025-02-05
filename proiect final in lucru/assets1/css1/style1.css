@@ -60,9 +60,9 @@ nav ul li{
 /*END HEADER*/
 #benner{
     width: 100%;
-    max-width: 600px;
-    background-image: url(../images1/benner.webp);
-}
+    max-width: 1600px;
+    background-image: url(../images1/);
+}   
 #benner ht{
     color: azure;
     /* text-align: center; */
